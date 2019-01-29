@@ -242,15 +242,15 @@ ul.CTAs a {
     }
 }
 
-  @media screen and (min-width: 601px) {
+@media screen and (min-width: 601px) {
     p.textR {
       font-size: 20px;
     }
-  }
+}
   
   /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
-  @media screen and (max-width: 600px) {
-    p.textR {
+@media screen and (max-width: 600px) {
+p.textR {
       font-size: 10px;
     }
-  }
+}
