@@ -14,14 +14,14 @@
         crossorigin="anonymous">
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="./css/Style.css">
-    <script src="./js/service-worker.js"></script>
+    <script src="js/workebox-sw.js"></script>
     <link rel="manifest" href="manifest.webmanifest" />
     <script>
             // Check that service workers are supported
             if ('serviceWorker' in navigator) {
                 // Use the window load event to keep the page load performant
                 window.addEventListener('load', () => {
-                navigator.serviceWorker.register('./js/sw.js');
+                navigator.serviceWorker.register('js/sw.js');
                 });
             }
     </script>
