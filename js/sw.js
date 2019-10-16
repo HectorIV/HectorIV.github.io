@@ -1,4 +1,4 @@
-importScripts('js/workbox-sw.js');
+importScripts('workbox-sw.js');
 
 workbox.routing.registerRoute(
   /\.js$/,
