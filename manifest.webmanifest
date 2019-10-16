@@ -3,6 +3,6 @@
     "short_name": "Héctor Vásquez",
     "theme_color": "#0660a7",
     "background_color": "#ffffff",
-    "display": "fullscreen",
+    "display": "standalone",
     "start_url": "/HectorIV.github.io/index.html"
   }
