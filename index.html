@@ -14,6 +14,18 @@
         crossorigin="anonymous">
     <!-- Our Custom CSS -->
     <link rel="stylesheet" href="./css/Style.css">
+    <script src="./js/service-worker.js"></script>
+    <link rel="manifest" href="manifest.webmanifest" />
+    <script>
+            // Check that service workers are supported
+            if ('serviceWorker' in navigator) {
+                // Use the window load event to keep the page load performant
+                window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./js/sw.js');
+                });
+            }
+    </script>
+        
 
 </head>
 
@@ -100,9 +112,21 @@
                 </picture>
                 <h2 class="text-center">Bienvenidos a mi página</h2>
                 <br>
-                <p class="text-justify">Poseo conocimientos en desarrollo de páginas web, app móviles, programas de
+                <p class="text-center">
+                        Mi nombre es Héctor Ivan Vásquez <br>
+                        Fecha de Nacimiento:  15 de octubre de 1996<br>     Cedula: 8-913-2324<br> 
+                        Edad:  23 años<br>
+                        Residencia:  Nuevo Veranillo Calle Q - Distrito de San Miguelito<br>
+                        Correo electrónico:  hectori1596@gmail.com<br>
+                        Celular:  6889-5329<br>                   GitHub:  <a href="https://github.com/HectorIV">https://github.com/HectorIV</a><br><br>
+                </p>
+                <p class="text-justify">
+
+                        
+                    Poseo conocimientos en desarrollo de páginas web, app móviles, programas de
                     escritorio, construcción de base de datos relacionales o no relacionales, manejo de base de datos,
-                    desarrollo de contenido digital, desarrollo de videojuegos y administración de redes sociales.</p>
+                    desarrollo de contenido digital, desarrollo de videojuegos y administración de redes sociales.
+                </p>
             </div>
 
 
